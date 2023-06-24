@@ -2,6 +2,8 @@ package net.leaf.lightbulb;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.leaf.lightbulb.block.ModBlocks;
+import net.leaf.lightbulb.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +14,8 @@ public class LightBulb implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

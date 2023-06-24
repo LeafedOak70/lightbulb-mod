@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "" : {"model" :  "lightbulb:block/framed_glass"}
+  }
+}
