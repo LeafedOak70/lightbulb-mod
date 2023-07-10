@@ -3,5 +3,6 @@
 
   "itemGroup.lightbulb.tanzanite" : "LightBulb",
 
-  "block.lightbulb.framed_glass" : "Framed Glass"
+  "block.lightbulb.framed_glass" : "Framed Glass",
+  "block.lightbulb.framed_glass_pane" : "Framed Glass Pane"
 }

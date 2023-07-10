@@ -4,10 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.leaf.lightbulb.LightBulb;
 import net.leaf.lightbulb.item.ModItemGroup;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.GlassBlock;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -25,7 +22,9 @@ public class ModBlocks {
 //                    .solidBlock(((state, world, pos) -> false))
 //                    .blockVision(((state, world, pos) -> false))), ModItemGroup.TANZANITE);
     public static final Block FRAMED_GLASS = registerBlock("framed_glass",
-            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)),ModItemGroup.TANZANITE);
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block FRAMED_GLASS_PANE = registerBlock("framed_glass_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)),ItemGroup.BUILDING_BLOCKS);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){

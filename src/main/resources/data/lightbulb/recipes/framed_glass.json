@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "X": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
+  "result": {
+    "count": 4,
+    "item": "lightbulb:framed_glass"
+  }
+}
