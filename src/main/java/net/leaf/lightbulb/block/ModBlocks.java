@@ -26,6 +26,22 @@ public class ModBlocks {
     public static final Block FRAMED_GLASS_PANE = registerBlock("framed_glass_pane",
             new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)),ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block BLUE_FRAMED_GLASS = registerBlock("blue_framed_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block BLUE_FRAMED_GLASS_PANE = registerBlock("blue_framed_glass_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block GREEN_FRAMED_GLASS = registerBlock("green_framed_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block GREEN_FRAMED_GLASS_PANE = registerBlock("green_framed_glass_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block ORANGE_FRAMED_GLASS = registerBlock("orange_framed_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block ORANGE_FRAMED_GLASS_PANE = registerBlock("orange_framed_glass_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block RED_FRAMED_GLASS = registerBlock("red_framed_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)),ItemGroup.BUILDING_BLOCKS);
+    public static final Block RED_FRAMED_GLASS_PANE = registerBlock("red_framed_glass_pane",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE)),ItemGroup.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block ,tab);

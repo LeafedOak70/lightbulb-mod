@@ -4,5 +4,14 @@
   "itemGroup.lightbulb.tanzanite" : "LightBulb",
 
   "block.lightbulb.framed_glass" : "Framed Glass",
-  "block.lightbulb.framed_glass_pane" : "Framed Glass Pane"
+  "block.lightbulb.framed_glass_pane" : "Framed Glass Pane",
+  "block.lightbulb.blue_framed_glass" : "Blue Framed Glass",
+  "block.lightbulb.blue_framed_glass_pane" : "Blue Framed Glass Pane",
+  "block.lightbulb.green_framed_glass" : "Green Framed Glass",
+  "block.lightbulb.green_framed_glass_pane" : "Green Framed Glass Pane",
+  "block.lightbulb.orange_framed_glass" : "Orange Framed Glass",
+  "block.lightbulb.orange_framed_glass_pane" : "Orange Framed Glass Pane",
+  "block.lightbulb.red_framed_glass" : "Red Framed Glass",
+  "block.lightbulb.red_framed_glass_pane" : "Red Framed Glass Pane"
+
 }

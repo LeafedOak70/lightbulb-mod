@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:green_dye"
+      }
+    ],
+    "X": {
+      "item": "lightbulb:blue_framed_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "lightbulb:green_framed_glass"
+  }
+}
